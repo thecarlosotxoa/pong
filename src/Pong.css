@@ -1,0 +1,55 @@
+/* src/Pong.css */
+canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: #333;
+  }
+  
+  .pong-game {
+    text-align: center;
+    color: pink;
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .timer {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .game-over,
+  .start-screen,
+  .instruction-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game-over h1,
+  .start-screen h1,
+  .instruction-screen h2 {
+    font-size: 48px;
+    color: pink;
+  }
+  
+  .game-over button,
+  .start-screen button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: pink;
+    border: none;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .game-over button:hover,
+  .start-screen button:hover {
+    background-color: #ff66b2;
+  }
+  
